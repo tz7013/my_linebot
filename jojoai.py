@@ -69,7 +69,8 @@ def LinePOST():
     text = data['events'][0]['message']['text']  # 訊息內容
     user_id = data['events'][0]['source']['userId']  # 使用者 ID
     ai_msg = aichat(user_id, text)
-    print(f'line:{ai_msg}')
+    print(f'user:{text}')
+    print(f'ai:{ai_msg}')
     LineText(replyToken, ai_msg)
     return ""
 
