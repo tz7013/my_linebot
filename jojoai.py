@@ -74,5 +74,14 @@ def LinePOST():
     LineText(replyToken, ai_msg)
     return ""
 
+@app.route("/", methods=['GET'])
+def get_handler():
+    return "This is a GET response"
+
+@app.route("/", methods=['HEAD'])
+def head_handler():
+    return "", 200
+
+
 if __name__ == '__main__':
     app.run(port=5000)
