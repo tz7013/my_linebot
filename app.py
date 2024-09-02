@@ -6,8 +6,6 @@ import os
 
 app = flask.Flask(__name__)
 
-# auth_token="i3etM/dX+X8u1fxNRL7vkQAx2QHXzYWVmGqcw7WzHuqjgJne2EDcDHDAgE7R+EKvRFaXs0tp2L4SgVPo7VpD/G/vvvp78wZx5qrUsEK5F8oGLejqlo1eg4TdCzO8LRtMyGGPsKNZFTGzAgpKQS3FlAdB04t89/1O/w1cDnyilFU="
-# YouruserID="U0e29664b46667d26b078ad2878cd4e94"
 auth_token = os.getenv('AUTH_TOKEN')
 YouruserID = os.getenv('USER_ID')
 
