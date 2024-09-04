@@ -6,7 +6,7 @@ import os
 
 app = flask.Flask(__name__)
 
-auth_token = os.getenv('AUTH_TOKEN')
+auth_token = os.getenv('auth_token')
 YouruserID = os.getenv('USER_ID')
 
 print("AUTH_TOKEN:", auth_token)
