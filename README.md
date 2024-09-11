@@ -13,12 +13,12 @@ https://developers.line.biz/zh-hant/
 
 
 如果有line可以直接選擇line帳號登入(一般都會有吧?)
-![image](https://hackmd.io/_uploads/ByEckF1nA.png =50%x)
+![image](https://hackmd.io/_uploads/ByEckF1nA.png)
 
 創建Provider
 ![image](https://hackmd.io/_uploads/SkpFltJnR.png)
 輸入Provider name => Create
-![image](https://hackmd.io/_uploads/S1XeVBx3C.png =50%x)
+![image](https://hackmd.io/_uploads/S1XeVBx3C.png)
 
 選擇創建"Message API", 並依內容填寫
 ![image](https://hackmd.io/_uploads/HJMYVSeh0.png)
@@ -28,9 +28,10 @@ https://developers.line.biz/zh-hant/
 創建完成Message API後, 在Basic setting頁面, 下方有個Your user ID需要記下來
 ![image](https://hackmd.io/_uploads/rJsT5Y1nR.png)
 
-![image](https://hackmd.io/_uploads/SJ3ciFJ3R.png =80%x)
+![image](https://hackmd.io/_uploads/B1rZtSJ6A.png)
+
 然後再到Messaging API頁面, 掃描下面QRcode可以加入好友
-![image](https://hackmd.io/_uploads/BkF5_qJ2C.png =80%x)
+![image](https://hackmd.io/_uploads/BkF5_qJ2C.png)
 
 在Webhook setting這裡要輸入架設的openai網址
 (我這裡是先將openai發佈到私有網域上, 再使用ngrok建立一個暫時的公有網址連接到私有網域)
@@ -300,7 +301,8 @@ if __name__ == '__main__':
 ```
 
 ### 來看看聊天結果
-![image](https://hackmd.io/_uploads/Hy1BzLg3R.png =60%x)
+![螢幕擷取畫面 2024-09-12 004835](https://hackmd.io/_uploads/ryie9H16C.jpg)
+
 
 
 
