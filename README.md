@@ -301,3 +301,6 @@ if __name__ == '__main__':
 
 ### 來看看聊天結果
 ![image](https://hackmd.io/_uploads/Hy1BzLg3R.png =60%x)
+
+
+
