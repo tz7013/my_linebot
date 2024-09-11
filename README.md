@@ -28,9 +28,9 @@ https://developers.line.biz/zh-hant/
 創建完成Message API後, 在Basic setting頁面, 下方有個Your user ID需要記下來
 ![image](https://hackmd.io/_uploads/rJsT5Y1nR.png)
 
-![image](https://hackmd.io/_uploads/SJ3ciFJ3R.png =80%x)
+![image](https://hackmd.io/_uploads/SJ3ciFJ3R.png)
 然後再到Messaging API頁面, 掃描下面QRcode可以加入好友
-![image](https://hackmd.io/_uploads/BkF5_qJ2C.png =80%x)
+![image](https://hackmd.io/_uploads/BkF5_qJ2C.png)
 
 在Webhook setting這裡要輸入架設的openai網址
 (我這裡是先將openai發佈到私有網域上, 再使用ngrok建立一個暫時的公有網址連接到私有網域)
